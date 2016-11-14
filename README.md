@@ -1,3 +1,3 @@
 ## Project Name: Routedigit.com Personal Website
-## Version: 0.2
+## Version: 0.4
 ## Codename: Raven Hill
