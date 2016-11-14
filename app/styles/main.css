@@ -21,6 +21,13 @@ h1 {
 .spaceIcon {
   margin-left: 12px;
   margin-right: 12px;
+  color: white;
+}
+
+i:hover {
+  color:black;
+  cursor: pointer;
+  cursor: hand;
 }
 
 
