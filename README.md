@@ -1,4 +1,3 @@
-### Link
-'https://www.routedigit.com/'
-#### Project Name: Routedigit.com Personal Website
-#### Version: 0.5
+#### Project Name: Routedigit.com Portfolio Site
+https://www.routedigit.com/
+#### Version: 0.6
