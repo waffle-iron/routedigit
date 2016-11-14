@@ -34,6 +34,16 @@ angular
         controller: 'PortfolioCtrl',
         controllerAs: 'portfolio'
       })
+      .when('/github', {
+        templateUrl: 'views/github.html',
+        controller: 'GithubCtrl',
+        controllerAs: 'github'
+      })
+      .when('/youtube', {
+        templateUrl: 'views/youtube.html',
+        controller: 'YoutubeCtrl',
+        controllerAs: 'youtube'
+      })
       .otherwise({
         redirectTo: '/'
       });
