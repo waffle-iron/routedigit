@@ -10,6 +10,7 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/angular-tooltips/dist/angular-tooltips.min.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -27,24 +28,22 @@
 
       <div class="container">
         <div class="row">
-          <a href="#/"><i class="fa fa-eye spaceIcon" style="font-size:48px;"></i></a>
 
-          <a href="#/portfolio"><i class="fa fa-book spaceIcon" style="font-size:48px;"></i></a>
+          <a href="#/" tooltips tooltip-template="Profile" tooltip-side="bottom"><i class="fa fa-eye spaceIcon" style="font-size:48px;" ></i></a>
 
-          <a href="#/github"><i class="fa fa-github spaceIcon" style="font-size:48px;"></i></a>
+          <a href="#/portfolio" tooltips tooltip-template="Portfolio" tooltip-side="bottom"><i class="fa fa-book spaceIcon" style="font-size:48px;"></i></a>
 
-          <a href="#/youtube"><i class="fa fa-youtube spaceIcon" style="font-size:48px;"></i></a>
+          <a href="#/github" tooltips tooltip-template="Github" tooltip-side="bottom"><i class="fa fa-github spaceIcon" style="font-size:48px;"></i></a>
 
-          <a href="https://twitter.com/routedigit"><i class="fa fa-twitter spaceIcon" style="font-size:48px;"></i></a>
+          <a href="#/youtube" tooltips tooltip-template="GitHub" tooltip-side="bottom"><i class="fa fa-youtube spaceIcon" style="font-size:48px;"></i></a>
 
-          <a href="https://www.linkedin.com/in/routedigit"><i class="fa fa-linkedin spaceIcon" style="font-size:48px;"></i></a>
+          <a href="https://twitter.com/routedigit"  tooltips tooltip-template="Twitter" tooltip-side="bottom"><i class="fa fa-twitter spaceIcon" style="font-size:48px;"></i></a>
 
-          <a href="mailto:bkrystman@protonmail.ch"><i class="fa fa-envelope spaceIcon" style="font-size:48px;"></i></a>
+          <a href="https://www.linkedin.com/in/routedigit"  tooltips tooltip-template="Linkedin" tooltip-side="bottom"><i class="fa fa-linkedin spaceIcon" style="font-size:48px;"></i></a>
 
-          <a href="https://www.blog.routedigit.com"><i class="fa fa-pencil spaceIcon" style="font-size:48px;"></i></a>
-        </div>
-        <div class="row">
-          {{1+2}}
+          <a href="mailto:bkrystman@protonmail.ch"  tooltips tooltip-template="Email" tooltip-side="bottom"><i class="fa fa-envelope spaceIcon" style="font-size:48px;"></i></a>
+
+          <a href="https://www.blog.routedigit.com"  tooltips tooltip-template="Personal Blog" tooltip-side="bottom"><i class="fa fa-pencil spaceIcon" style="font-size:48px;"></i></a>
         </div>
       </div>
 
@@ -81,6 +80,7 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-tooltips/dist/angular-tooltips.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

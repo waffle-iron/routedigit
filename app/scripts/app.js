@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    '720kb.tooltips'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -48,12 +49,9 @@ angular
         redirectTo: '/'
       });
   })
+
   .run(['$rootScope', function($rootScope) {
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
         $rootScope.title = "RouteDigit.com";
-        
     });
   }]);
-
-
-  ;
