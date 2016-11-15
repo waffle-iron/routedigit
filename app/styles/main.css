@@ -35,14 +35,14 @@ i:hover {
   border: 2px solid white;
   background-image: url("http://static4.wikia.nocookie.net/__cb20131121214007/destinypedia/images/7/71/Information_Icon.svg");
   background-size: 100% 100%;
-  border-radius: 10px;
+  border-radius: 40px;
   -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
   animation: mymove 5s infinite;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    50% {border-radius: 100px;}
+    20% {border-radius: 100px;}
 }
 
 /* Standard syntax */

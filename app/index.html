@@ -1,8 +1,8 @@
 <!doctype html>
-<html>
+<html ng-app="siteAppApp">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title ng-bind="title"></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
     <!-- endbuild -->
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
   </head>
-  <body ng-app="siteAppApp">
+  <body>
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -25,21 +25,28 @@
     <!-- Add your site or application content here -->
     <div class="header">
 
-      <a href="#/"><i class="fa fa-eye spaceIcon" style="font-size:48px;"></i></a>
+      <div class="container">
+        <div class="row">
+          <a href="#/"><i class="fa fa-eye spaceIcon" style="font-size:48px;"></i></a>
 
-      <a href="#/portfolio"><i class="fa fa-book spaceIcon" style="font-size:48px;"></i></a>
+          <a href="#/portfolio"><i class="fa fa-book spaceIcon" style="font-size:48px;"></i></a>
 
-      <a href="#/github"><i class="fa fa-github spaceIcon" style="font-size:48px;"></i></a>
+          <a href="#/github"><i class="fa fa-github spaceIcon" style="font-size:48px;"></i></a>
 
-      <a href="#/youtube"><i class="fa fa-youtube spaceIcon" style="font-size:48px;"></i></a>
+          <a href="#/youtube"><i class="fa fa-youtube spaceIcon" style="font-size:48px;"></i></a>
 
-      <a href="https://twitter.com/routedigit"><i class="fa fa-twitter spaceIcon" style="font-size:48px;"></i></a>
+          <a href="https://twitter.com/routedigit"><i class="fa fa-twitter spaceIcon" style="font-size:48px;"></i></a>
 
-      <a href="https://www.linkedin.com/in/routedigit"><i class="fa fa-linkedin spaceIcon" style="font-size:48px;"></i></a>
+          <a href="https://www.linkedin.com/in/routedigit"><i class="fa fa-linkedin spaceIcon" style="font-size:48px;"></i></a>
 
-      <a href="mailto:bkrystman@protonmail.ch"><i class="fa fa-envelope spaceIcon" style="font-size:48px;"></i></a>
+          <a href="mailto:bkrystman@protonmail.ch"><i class="fa fa-envelope spaceIcon" style="font-size:48px;"></i></a>
 
-      <a href="https://www.blog.routedigit.com"><i class="fa fa-pencil spaceIcon" style="font-size:48px;"></i></a>
+          <a href="https://www.blog.routedigit.com"><i class="fa fa-pencil spaceIcon" style="font-size:48px;"></i></a>
+        </div>
+        <div class="row">
+          {{1+2}}
+        </div>
+      </div>
 
     </div>
 
