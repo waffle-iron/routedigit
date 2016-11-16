@@ -29,6 +29,17 @@ i:hover {
   cursor: hand;
 }
 
+.rectangle{
+    width:100%;
+    background:#ecebfa;
+    border-radius: 10px;
+    color: black;
+}
+.picRad {
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
 .photo {
   width: 200px;
   height: 200px;
