@@ -31,12 +31,12 @@ i:hover {
 
 .rectangle{
     width:100%;
-    background:#ecebfa;
+    background: rgba(255, 255, 255, .09);
     border-radius: 10px;
     color: black;
 }
 .picRad {
-  border-radius: 30px;
+  border-radius: 10px;
   margin-bottom: 15px;
 }
 
