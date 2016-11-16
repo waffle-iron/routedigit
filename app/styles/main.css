@@ -33,7 +33,7 @@ i:hover {
   width: 200px;
   height: 200px;
   border: 2px solid white;
-  background-image: url("http://static4.wikia.nocookie.net/__cb20131121214007/destinypedia/images/7/71/Information_Icon.svg");
+  background-image: url("../images/photo.png");
   background-size: 100% 100%;
   border-radius: 40px;
   -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
