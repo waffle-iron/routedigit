@@ -36,11 +36,9 @@ i:hover {
     border-radius: 10px;
     color: black;
     padding-bottom: 30px;
-    margin-bottom: 40px;
 }
 .picRad {
   border-radius: 10px;
-  margin-bottom: 15px;
 }
 
 .photo {
@@ -131,5 +129,4 @@ i:hover {
   .jumbotron {
     border-bottom: 0;
   }
-
 }
