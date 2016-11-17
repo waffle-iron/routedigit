@@ -1,3 +1,3 @@
 #### Project Name: Routedigit.com Portfolio Site
 https://www.routedigit.com/
-#### Version: 0.7
+#### Version: 0.8
