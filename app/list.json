@@ -6,8 +6,10 @@
     "description": "Spotify Music Search App has three search modes. Search by top tracks, albums and by related artists. All information is comming back from Spotify's api. You are only able to listen to track if you search for the top tracks. If you search in different mode our app will point you to spotify to enjoy service provided by spotify one hundred percent.",
     "techUsed": "Technologies Used: HTML, CSS, JavaScript, Ajax, Firebase, Spotify Api",
     "site": "https://musique-app.firebaseapp.com/",
+    "siteHide":false,
     "github": "https://github.com/rootgateway/Musique-App",
-    "youtube": "/",
+    "youtube": null,
+    "youtubeHide": true,
     "type": "javascript"
   },
   {
@@ -17,8 +19,10 @@
     "description": "A wonderful app that let's food truck owners set up an account and have their food trucks displayed on google map for users within some distance to that very food trcuk. Users and owners are able to create an account. Default user username is \"hipster\" and password is \"password\".",
     "techUsed": "Technologies Used: HTML, CSS, JavaScript, Ajax, Heroku, Google Maps Api, Postgresql, Knex, PassportJS, ExpressJS",
     "site": "https://hipfoodtrucks.herokuapp.com/",
+    "siteHide":false,
     "github": "https://github.com/rootgateway/foodtrucks",
-    "youtube": "/",
+    "youtube": null,
+    "youtubeHide": true,
     "type": "express"
   },
   {
@@ -27,9 +31,11 @@
     "image": "../images/app03.png",
     "description": "An iOS app that lets us choose our meals based on diatery needs. If we are vegan, we will be able to display all vegan foods and then get a map of all vegan restaurants close to our location.",
     "techUsed": "Technologies Used: MongoDB with ExpressJS for an API, Swift 3, Xcode 8",
-    "site": "/",
+    "site": null,
+    "siteHide":true,
     "github": "https://github.com/rootgateway/meal_finder",
     "youtube": "https://youtu.be/WcXuSTt4eUQ",
+    "youtubeHide": false,
     "type": "ios"
   },
   {
@@ -38,20 +44,24 @@
     "image": "../images/app04.png",
     "description": "Weather app that displays current weather for today and for several days.",
     "techUsed": "Technologies Used: Open Weather Map API, Swift 3, Xcode 8",
-    "site": "/",
+    "site": null,
+    "siteHide":true,
     "github": "https://github.com/rootgateway/bk_weather_ios_app",
-    "youtube": "/",
+    "youtube": null,
+    "youtubeHide": true,
     "type": "ios"
   },
   {
     "id": 5,
     "title": "Shopping Cart App",
     "image": "../images/app05.png",
-    "description": "/",
+    "description": "",
     "techUsed": "Technologies Used: HTML, CSS, JavaScript, AngularJS",
-    "site": "/",
+    "site": null,
+    "siteHide":true,
     "github": "https://github.com/rootgateway/bk_shopping_cart_app",
-    "youtube": "/",
+    "youtube": null,
+    "youtubeHide": true,
     "type": "angularjs"
   },
   {
@@ -60,9 +70,11 @@
     "image": "../images/app06.png",
     "description": "A movie search application that lets you search for specific movies and display description for each chosen movie.",
     "techUsed": "Technologies Used: HTML, CSS, JavaScript, AngularJS, Omdb Api.",
-    "site": "/",
+    "site": null,
+    "siteHide":true,
     "github": "https://github.com/rootgateway/bk_movie_search_app",
-    "youtube": "/",
+    "youtube": null,
+    "youtubeHide": true,
     "type": "angularjs"
   },
   {
@@ -71,9 +83,11 @@
     "image": "../images/app07.png",
     "description": "AngularJS movie app that lists movies that are hardcoded into a JSON file. Movies are being segregated alphabetically based on their titles. Each movie has it's own route created where you can get more information for that particular movie from DuckDuckGo API automatically. New movies can be added to this list by clicking arrow button. New movies can be randomly accessed by clicking Random movie button. As a user you can also post an issue which sends post issue message straight to github repo issue section to inform Developer of an issue.",
     "techUsed": "HTML/CSS, JavaScript, AngularJS, Heroku, GitHub Api",
-    "site": "/",
+    "site": null,
+    "siteHide":true,
     "github": "https://github.com/rootgateway/routedigit_movie_list_app",
-    "youtube": "/",
+    "youtube": null,
+    "youtubeHide": true,
     "type": "angularjs"
   }
 ]
