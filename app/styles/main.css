@@ -36,8 +36,7 @@ i:hover {
     border-radius: 10px;
     color: black;
     padding-bottom: 20px;
-    padding-top: 20px;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .picRad {
   border-radius: 10px;
@@ -121,10 +120,12 @@ i:hover {
   .footer {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     margin-top: 30px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
