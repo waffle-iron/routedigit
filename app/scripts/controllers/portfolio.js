@@ -9,6 +9,7 @@
  */
 angular.module('siteAppApp')
   .controller('PortfolioCtrl', function ($scope,$http) {
+    $scope.effect = 'animated slideInUp'
     $http.get('./list.json').then(function(data){
       var obj = data.data;
       console.log(obj.length);

@@ -132,3 +132,8 @@ i:hover {
     border-bottom: 0;
   }
 }
+
+.icon:hover {
+    -webkit-animation: wobble 2s;
+    animation: wobble 2s;
+}
