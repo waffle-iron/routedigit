@@ -35,7 +35,9 @@ i:hover {
     background: rgba(255, 255, 255, .09);
     border-radius: 10px;
     color: black;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
 }
 .picRad {
   border-radius: 10px;
@@ -129,4 +131,9 @@ i:hover {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.icon:hover {
+    -webkit-animation: wobble 2s;
+    animation: wobble 2s;
 }
