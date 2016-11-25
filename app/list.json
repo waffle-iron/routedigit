@@ -90,4 +90,18 @@
     "youtubeHide": true,
     "type": "angularjs"
   }
+  ,
+  {
+    "id": 8,
+    "title": "Routedigit Retrieval App",
+    "image": "https://raw.githubusercontent.com/rootgateway/routedigit_retrieval_app/master/screenshot640.png",
+    "description": "Description: AngularJS App for data retrieval. As a user you are able to login with user@user.com:user or test@test.com:test. Your username will be passed down to the other page to let you know that you have logged it. Our dummy data is being taken from JSON file. Table rows are being populated with that particular data. As a user you are able to filter and sort your data. You are also able to delete searched rows from your main table.",
+    "techUsed": "Technologies Used: HTML/CSS, JavaScript, AngularJS, Heroku.",
+    "site": "https://routdigit-retrieval-app.herokuapp.com/",
+    "siteHide":false,
+    "github": "https://github.com/rootgateway/routedigit_retrieval_app",
+    "youtube": null,
+    "youtubeHide": true,
+    "type": "angularjs"
+  }
 ]
