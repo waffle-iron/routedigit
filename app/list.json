@@ -80,7 +80,7 @@
   {
     "id": 7,
     "title": "Routedigit Movie List App",
-    "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app07.png?raw=true",
+    "image": "https://raw.githubusercontent.com/rootgateway/routedigit_movie_list_app/master/screenshot640.png",
     "description": "Description: AngularJS movie app that lists movies that are hardcoded into a JSON file. Movies are being segregated alphabetically based on their titles. Each movie has it's own route created where you can get more information for that particular movie from DuckDuckGo API automatically. New movies can be added to this list by clicking arrow button. New movies can be randomly accessed by clicking Random movie button. As a user you can also post an issue which sends post issue message straight to github repo issue section to inform Developer of an issue.",
     "techUsed": "Technologies Used: HTML/CSS, JavaScript, AngularJS, Heroku, GitHub Api",
     "site": null,
