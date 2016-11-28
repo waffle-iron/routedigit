@@ -1,22 +1,35 @@
 [
   {
     "id": 1,
-    "title": "Musique-App",
-    "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app01.png?raw=true",
-    "description": "Description: Spotify Music Search App has three search modes. Search by top tracks, albums and by related artists. All information is comming back from Spotify's api. You are only able to listen to track if you search for the top tracks. If you search in different mode our app will point you to spotify to enjoy service provided by spotify one hundred percent.",
-    "techUsed": "Technologies Used: HTML, CSS, JavaScript, Ajax, Firebase, Spotify Api",
-    "site": "https://musique-app.firebaseapp.com/",
+    "title": "Routedigit Retrieval App",
+    "image": "https://raw.githubusercontent.com/rootgateway/routedigit_retrieval_app/master/screenshot640.png",
+    "description": "Description: AngularJS App for data retrieval. As a user you are able to login with user@user.com:user or test@test.com:test. Your username will be passed down to the other page to let you know that you have logged it. Our dummy data is being taken from JSON file. Table rows are being populated with that particular data. As a user you are able to filter and sort your data. You are also able to delete searched rows from your main table.",
+    "techUsed": "Technologies Used: HTML/CSS, JavaScript, AngularJS, Heroku.",
+    "site": "https://routdigit-retrieval-app.herokuapp.com/",
     "siteHide":false,
-    "github": "https://github.com/rootgateway/Musique-App",
+    "github": "https://github.com/rootgateway/routedigit_retrieval_app",
     "youtube": null,
     "youtubeHide": true,
-    "type": "javascript"
+    "type": "angularjs"
   },
   {
     "id": 2,
+    "title": "Routedigit Movie List App",
+    "image": "https://raw.githubusercontent.com/rootgateway/routedigit_movie_list_app/master/screenshot640.png",
+    "description": "Description: AngularJS movie app that lists movies that are hardcoded into a JSON file. Movies are being segregated alphabetically based on their titles. Each movie has it's own route created where you can get more information for that particular movie from DuckDuckGo API automatically. New movies can be added to this list by clicking arrow button. New movies can be randomly accessed by clicking Random movie button. As a user you can also post an issue which sends post issue message straight to github repo issue section to inform Developer of an issue.",
+    "techUsed": "Technologies Used: HTML/CSS, JavaScript, AngularJS, Heroku, GitHub Api",
+    "site": "https://routedigit-movie-list-app.herokuapp.com/",
+    "siteHide": false,
+    "github": "https://github.com/rootgateway/routedigit_movie_list_app",
+    "youtube": null,
+    "youtubeHide": true,
+    "type": "angularjs"
+  },
+  {
+    "id": 3,
     "title": "Hip Food Trucks App",
     "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app02.png?raw=true",
-    "description": "Description: A wonderful app that let's food truck owners set up an account and have their food trucks displayed on google map for users within some distance to that very food trcuk. Users and owners are able to create an account. Default user username is \"hipster\" and password is \"password\".",
+    "description": "HipFoodTrucks is an interactive web application allowing you to have your favorite food truck locations at the tip of your fingers. When you first enter our site, you have options of signing up as a user or as an owner. You have to allow location access so we can find the food trucks nearest to your current location. On the home page we have a convenient search bar that allows you to search by trucks proximity to you, food genre, or simply by the food truck’s name. As a user, you are capable of reviewing food trucks and having a profile image. As a truck owner, you can add your truck to the map and show your schedule, your truck’s locations, and your times of business weekly. We make it easy for owners to add new food trucks and edit their schedules.",
     "techUsed": "Technologies Used: HTML, CSS, JavaScript, Ajax, Heroku, Google Maps Api, Postgresql, Knex, PassportJS, ExpressJS",
     "site": "https://hipfoodtrucks.herokuapp.com/",
     "siteHide":false,
@@ -26,7 +39,7 @@
     "type": "express"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Eatery iOS App",
     "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app03.png?raw=true",
     "description": "Description: An iOS app that lets us choose our meals based on diatery needs. If we are vegan, we will be able to display all vegan foods and then get a map of all vegan restaurants close to our location.",
@@ -39,7 +52,7 @@
     "type": "ios"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Weather iOS App",
     "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app04.png?raw=true",
     "description": "Description: Weather app that displays current weather for today and for several days.",
@@ -52,7 +65,7 @@
     "type": "ios"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Shopping Cart App",
     "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app05.png?raw=true",
     "description": "",
@@ -65,7 +78,7 @@
     "type": "angularjs"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Routedigit Movie DBS App",
     "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app06.png?raw=true",
     "description": "Description: A movie search application that lets you search for specific movies and display description for each chosen movie.",
@@ -78,30 +91,16 @@
     "type": "angularjs"
   },
   {
-    "id": 7,
-    "title": "Routedigit Movie List App",
-    "image": "https://raw.githubusercontent.com/rootgateway/routedigit_movie_list_app/master/screenshot640.png",
-    "description": "Description: AngularJS movie app that lists movies that are hardcoded into a JSON file. Movies are being segregated alphabetically based on their titles. Each movie has it's own route created where you can get more information for that particular movie from DuckDuckGo API automatically. New movies can be added to this list by clicking arrow button. New movies can be randomly accessed by clicking Random movie button. As a user you can also post an issue which sends post issue message straight to github repo issue section to inform Developer of an issue.",
-    "techUsed": "Technologies Used: HTML/CSS, JavaScript, AngularJS, Heroku, GitHub Api",
-    "site": "https://routedigit-movie-list-app.herokuapp.com/",
-    "siteHide": false,
-    "github": "https://github.com/rootgateway/routedigit_movie_list_app",
-    "youtube": null,
-    "youtubeHide": true,
-    "type": "angularjs"
-  }
-  ,
-  {
     "id": 8,
-    "title": "Routedigit Retrieval App",
-    "image": "https://raw.githubusercontent.com/rootgateway/routedigit_retrieval_app/master/screenshot640.png",
-    "description": "Description: AngularJS App for data retrieval. As a user you are able to login with user@user.com:user or test@test.com:test. Your username will be passed down to the other page to let you know that you have logged it. Our dummy data is being taken from JSON file. Table rows are being populated with that particular data. As a user you are able to filter and sort your data. You are also able to delete searched rows from your main table.",
-    "techUsed": "Technologies Used: HTML/CSS, JavaScript, AngularJS, Heroku.",
-    "site": "https://routdigit-retrieval-app.herokuapp.com/",
+    "title": "Musique-App",
+    "image": "https://github.com/rootgateway/routedigit/blob/master/app/images/app01.png?raw=true",
+    "description": "Description: Spotify Music Search App has three search modes. Search by top tracks, albums and by related artists. All information is comming back from Spotify's api. You are only able to listen to track if you search for the top tracks. If you search in different mode our app will point you to spotify to enjoy service provided by spotify one hundred percent.",
+    "techUsed": "Technologies Used: HTML, CSS, JavaScript, Ajax, Firebase, Spotify Api",
+    "site": "https://musique-app.firebaseapp.com/",
     "siteHide":false,
-    "github": "https://github.com/rootgateway/routedigit_retrieval_app",
+    "github": "https://github.com/rootgateway/Musique-App",
     "youtube": null,
     "youtubeHide": true,
-    "type": "angularjs"
+    "type": "javascript"
   }
 ]
