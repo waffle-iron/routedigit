@@ -1,7 +1,11 @@
 var myApp = angular.module('myApp',[]);
 myApp.controller('AppCTRL',['$scope','$http',
   function($scope,$http){
+    $scope.txtskill = "Skills:"
     $scope.nav_text = [{
+          name:'Main',
+          url:'#/main'
+        },{
         name:'About',
         url:'#/about'
       },{
@@ -18,7 +22,7 @@ myApp.controller('AppCTRL',['$scope','$http',
         url:'#/login'
       }
     ];
-    $scope.skills = [{
+    $scope.techskills = [{
         skill: 'HTML',
       },{
         skill: 'CSS'
@@ -64,10 +68,15 @@ myApp.controller('AppCTRL',['$scope','$http',
         skill: 'Agile'
       },{
         skill: 'Waffle.io'
-      }
-    ]
+      }]
 
 
 
   }
 ]);
+
+
+/*
+[
+];
+*/
