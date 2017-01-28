@@ -4,16 +4,36 @@
     <meta charset="utf-8">
     <title>RouteDigit.com</title>
     <link rel="stylesheet" href="./stylesheets/style.css"/>
-    <link rel="stylesheet" href="./scripts/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
   </head>
   <body ng-controller="AppCTRL">
-    <h1>Hello World!</h1>
-    {{how}}
+    <div class="container">
+      <div class="upper-container">
+        <div class="nav">
+          <div class="nav-name">
+            <span class="nametext">BART KRYSTMAN</span>
+          </div>
+          <div class="nav-links">
+              <div ng-repeat="txt in nav_text">
+                <div class="nav-links-space" ng-bind="txt.name"></div>
+              </div>
+          </div>
+        </div>
+        <div class="nav-body">
+          <div class="body-img">
+            <img src="../images/image.png" height="250px" width="450px"/>
+          </div>
+          <div class="title">
+            Software Engineer
+          </div>
+        </div>
+    </div>
+    </div>
     <script src="./javascripts/main.js"></script>
     <script src="./scripts/jquery.min.js"></script>
-    <script src="./scripts/bootstrap.min.js"></script>
     <script src="./scripts/angular.min.js"></script>
+    <script src="./scripts/angular-route.min.js"></script>
     <script src="./controllers/controller.js"></script>
   </body>
 </html>
