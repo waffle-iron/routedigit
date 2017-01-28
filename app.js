@@ -20,7 +20,15 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Import necessary modules and move them into scripts folder
+app.use('/scripts', express.static(__dirname + '/node_modules/jquery/dist/'));
+app.use('/scripts', express.static(__dirname + '/node_modules/bootstrap/dist/js/'));
+app.use('/scripts', express.static(__dirname + '/node_modules/bootstrap/dist/css/'));
+app.use('/scripts', express.static(__dirname + '/node_modules/angular/'));
+
 
 // app.use('/', index);
 // app.use('/users', users);
