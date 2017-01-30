@@ -1,82 +1,29 @@
-var myApp = angular.module('myApp',[]);
-myApp.controller('AppCTRL',['$scope','$http',
-  function($scope,$http){
-    $scope.txtskill = "Skills:"
-    $scope.nav_text = [{
-          name:'Main',
-          url:'#/main'
-        },{
-        name:'About',
-        url:'#/about'
-      },{
-        name:'Portfolio',
-        url:'#/portfolio'
-      },{
-        name:'GitHub',
-        url:'#/github'
-      },{
-        name:'Contact',
-        url:'#/contact'
-      },{
-        name:'Login',
-        url:'#/login'
-      }
-    ];
-    $scope.techskills = [{
-        skill: 'HTML',
-      },{
-        skill: 'CSS'
-      },{
-        skill: 'JavaScript'
-      },{
-        skill: 'Express'
-      },{
-        skill: 'KnexJS'
-      },{
-        skill: 'React'
-      },{
-        skill: 'AngularJS'
-      },{
-        skill: 'Passport'
-      },{
-        skill: 'Node.js'
-      },{
-        skill: 'Mocha/Chai'
-      },{
-        skill: 'Swift 3'
-      },{
-        skill: 'Xcode 8'
-      },{
-        skill: 'OOP'
-      },{
-        skill: 'Responsive Design'
-      },{
-        skill: 'Bootstrap'
-      },{
-        skill: 'PostgreSQL'
-      },{
-        skill: 'Git'
-      },{
-        skill: 'GitHub'
-      },{
-        skill: 'Linux Ubuntu Server'
-      },{
-        skill: 'Heroku'
-      },{
-        skill: 'Pivotal Tracker'
-      },{
-        skill: 'Agile'
-      },{
-        skill: 'Waffle.io'
-      }]
+var myApp = angular.module('myApp',['ngRoute','720kb.tooltips']);
 
-
-
-  }
-]);
-
-
-/*
-[
-];
-*/
+myApp.config(function($routeProvider) {
+    $routeProvider
+        .when('/', {
+            templateUrl : 'views/main.html',
+            controller  : 'AppCTRL'
+        })
+        .when('/portfolio', {
+            templateUrl : 'views/portfolio.html',
+            controller  : 'PortfolioCtrl'
+        })
+        .when('/about', {
+            templateUrl : 'views/about.html',
+            controller  : 'aboutCTRL'
+        })
+        .when('/github', {
+            templateUrl : 'views/github.html',
+            controller  : 'githubCTRL'
+        })
+        .when('/login', {
+            templateUrl : 'views/login.html',
+            controller  : 'loginCTRL'
+        })
+        .when('/contact', {
+            templateUrl : 'views/contact.html',
+            controller  : 'contactCTRL'
+        })
+});

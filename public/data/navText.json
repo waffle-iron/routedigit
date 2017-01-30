@@ -1,0 +1,21 @@
+[
+  {
+    "name":"Main",
+    "url":"#/main"
+    },{
+    "name":"About",
+    "url":"#/about"
+  },{
+    "name":"Portfolio",
+    "url":"#/portfolio"
+  },{
+    "name":"GitHub",
+    "url":"#/github"
+  },{
+    "name":"Contact",
+    "url":"#/contact"
+  },{
+    "name":"Login",
+    "url":"#/login"
+  }
+]

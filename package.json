@@ -8,6 +8,7 @@
   "dependencies": {
     "angular": "^1.6.1",
     "angular-route": "^1.6.1",
+    "angular-tooltips": "^1.1.10",
     "body-parser": "~1.15.2",
     "bootstrap": "^3.3.7",
     "cookie-parser": "~1.4.3",

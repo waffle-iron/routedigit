@@ -29,6 +29,8 @@ app.use('/scripts', express.static(__dirname + '/node_modules/bootstrap/dist/js/
 app.use('/scripts', express.static(__dirname + '/node_modules/bootstrap/dist/css/'));
 app.use('/scripts', express.static(__dirname + '/node_modules/angular/'));
 app.use('/scripts', express.static(__dirname + '/node_modules/angular-route/'));
+app.use('/scripts', express.static(__dirname + '/node_modules/angular-tooltips/dist/'));
+
 
 // app.use('/', index);
 // app.use('/users', users);

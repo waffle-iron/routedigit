@@ -1,0 +1,33 @@
+<div class="main-container">
+
+  <div class="upper-container">
+    <div class="nav-body">
+      <div class="body-img">
+        <img src="../images/image.png" height="250px" width="450px"/>
+      </div>
+      <div class="title">
+        Web Developer
+      </div>
+    </div>
+  </div>
+
+  <div class="lower-container">
+    <div class="switch">
+      <i class="fa fa-circle fac" aria-hidden="true" ng-click="circle1()" ng-hide="cir1"></i>
+      <i class="fa fa-circle-o fac" aria-hidden="true" ng-click="circle1()" ng-hide="cir2"></i>
+      <i class="fa fa-circle fac" aria-hidden="true" ng-click="circle2()" ng-hide="cir3"></i>
+      <i class="fa fa-circle-o fac" aria-hidden="true" ng-click="circle2()" ng-hide="cir4"></i>
+    </div>
+    <div class="lower-body" ng-hide="lowerBodyHide">
+      <div class="skillsec1" ng-bind="txtskill">
+      </div>
+      <div class="skillsec">
+      <div class="skillsec2">
+        <ul class="techskills">
+          <li ng-repeat="tech in techskills">{{tech.skill}}</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
