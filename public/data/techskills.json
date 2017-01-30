@@ -1,0 +1,49 @@
+[
+  {
+    "skill": "HTML"
+  },{
+    "skill": "CSS"
+  },{
+    "skill": "JavaScript"
+  },{
+    "skill": "Express"
+  },{
+    "skill": "KnexJS"
+  },{
+    "skill": "React"
+  },{
+    "skill": "AngularJS"
+  },{
+    "skill": "Passport"
+  },{
+    "skill": "Node.js"
+  },{
+    "skill": "Mocha/Chai"
+  },{
+    "skill": "Swift 3"
+  },{
+    "skill": "Xcode 8"
+  },{
+    "skill": "OOP"
+  },{
+    "skill": "Responsive Design"
+  },{
+    "skill": "Bootstrap"
+  },{
+    "skill": "PostgreSQL"
+  },{
+    "skill": "Git"
+  },{
+    "skill": "GitHub"
+  },{
+    "skill": "Linux Ubuntu Server"
+  },{
+    "skill": "Heroku"
+  },{
+    "skill": "Pivotal Tracker"
+  },{
+    "skill": "Agile"
+  },{
+    "skill": "Waffle.io"
+  }
+]
