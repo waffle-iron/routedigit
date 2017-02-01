@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/rootgateway/routedigit.png?label=ready&title=Ready)](https://waffle.io/rootgateway/routedigit)
 #Project Name : Routedigit Portfolio Site
 
 Technologies Used: HTML/CSS, JavaScript, AngularJS, Heroku.
